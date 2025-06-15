@@ -1,6 +1,6 @@
 # Quora Clone Backend API
 
-![Project Banner](images/QuoraBanner.png)
+![Project Banner](Images/QuoraBanner.png)
 
 ## 🧩 Problem Statement
 
@@ -52,7 +52,7 @@ Built using *Spring Boot* and designed following *RESTful API* principles, this 
 ````
 ---
 ## 🔗 Complex Relationships
-![ER Diagram](images/ERdigram.png)
+![ER Diagram](Images/ERdigram.png)
 
 
 ## 🧱 Data Models (Entities)
@@ -165,14 +165,14 @@ Built using *Spring Boot* and designed following *RESTful API* principles, this 
 ### 👤 User
 
 - **Register a new user**:
-  ![Register User](images/createuser.jpg)  
+  ![Register User](Images/createuser.jpg)  
   **Purpose**: Registering new users  
   **Method**: POST  
   **API Called**: /users
 
 
 - **Get user profile**:  
-  ![Get User](images/getuserbyid.jpg)  
+  ![Get User](Images/getuserbyid.jpg)  
   **Purpose**: Fetch a user by ID  
   **Method**: GET  
   **API Called**: /users/{userId}
@@ -182,14 +182,14 @@ Built using *Spring Boot* and designed following *RESTful API* principles, this 
 ### ❓ Question
 
 - **Post a new question**: 
-  ![Post Question](images/createquestion.jpg)  
+  ![Post Question](Images/createquestion.jpg)  
   **Purpose**: Creating a new question  
   **Method**: POST  
   **API Called**: /questions
 
 
 - **Search questions**:   
-  ![Search Questions](images/getquestion.jpg)  
+  ![Search Questions](Images/getquestion.jpg)  
   **Purpose**: Searching questions by text or tag  
   **Method**: GET  
   **API Called**: /questions/search
@@ -199,14 +199,14 @@ Built using *Spring Boot* and designed following *RESTful API* principles, this 
 ### ✍ Answer
 
 - **Post an answer**:   
-  ![Post Answer](images/createanswer.jpg)  
+  ![Post Answer](Images/createanswer.jpg)  
   **Purpose**: Post answer to a question  
   **Method**: POST  
   **API Called**: /questions/{questionId}/answers
 
 
 - **Edit an answer**:  
-  ![Edit Answer](images/updateanswer.jpg)  
+  ![Edit Answer](Images/updateanswer.jpg)  
   **Purpose**: Edit an existing answer  
   **Method**: PUT  
   **API Called**: /answers/{answerId}
@@ -216,21 +216,21 @@ Built using *Spring Boot* and designed following *RESTful API* principles, this 
 ### 💬 Comment
 
 - **Comment on an answer**:  
-  ![Comment on Answer](images/createcomment.jpg)
+  ![Comment on Answer](Images/createcomment.jpg)
   **Purpose**: Comment on existing answer  
   **Method**: POST  
   **API Called**: /answers/{answerId}/comments
 
 
 - **Reply to a comment**:  
-  ![Reply to Comment](images/replycomment.jpg)
+  ![Reply to Comment](Images/replycomment.jpg)
   **Purpose**: Comment on existing comment  
   **Method**: POST     
   **API Called**: /comments/{commentId}/comments
 
 
 - **Get all comments**:  
-  ![Get Comment Replies](images/getallcomment.jpg)
+  ![Get Comment Replies](Images/getallcomment.jpg)
   **Purpose**: Comment on existing comment  
   **Method**: GET      
   **API Called**: /comments/{commentId}/comments
@@ -240,21 +240,21 @@ Built using *Spring Boot* and designed following *RESTful API* principles, this 
 ### 👍 Like
 
 - **Like a Question**:  
-  ![Like Question](images/likequestion.jpg)
+  ![Like Question](Images/likequestion.jpg)
   **Purpose**: Like comment  
   **Method**: POST  
   **API Called**: /questions/{questionId}/likes
 
 
 - **Like an answer**:  
-  ![Like Answer](images/likeanswer.jpg)
+  ![Like Answer](Images/likeanswer.jpg)
   **Purpose**: Like Answer  
   **Method**: POST   
   **API Called**: /answers/{answerId}/likes
 
 
 - **Like a Comment**:  
-  ![Like Comment](images/likecomment.jpg)
+  ![Like Comment](Images/likecomment.jpg)
   **Purpose**: Like Comment  
   **Method**: POST    
   **API Called**: /comments/{commentId}/likes
@@ -264,14 +264,14 @@ Built using *Spring Boot* and designed following *RESTful API* principles, this 
 ### 🏷 Topic
 
 - **Create a topic**:  
-  ![Create Topic](images/createtopic.jpg)
+  ![Create Topic](Images/createtopic.jpg)
   **Purpose**: Create topics  
   **Method**: POST   
   **API Called**: /topics
 
 
 - **Get all topics**:  
-  ![List Topics](images/getalltopics.jpg)
+  ![List Topics](Images/getalltopics.jpg)
   **Purpose**: Get topics  
   **Method**: GET   
   **API Called**: /topics
@@ -281,7 +281,7 @@ Built using *Spring Boot* and designed following *RESTful API* principles, this 
 ### 🤝 Follow
 
   - **Follow a user**:  
-    ![Create Topic](images/followuser.jpg)
+    ![Create Topic](Images/followuser.jpg)
     **Purpose**: Follow other users  
     **Method**: POST   
     **API Called**: /users/{userId}/follow/{targetUserId}
